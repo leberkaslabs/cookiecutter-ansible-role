@@ -1,4 +1,4 @@
-# Ansible Role: {{ cookiecutter.role_name.capitalize() }}
+# Ansible Role: {{ cookiecutter.role_name.lower() }}
 
 [![Ansible Molecule](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/molecule.yml/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/molecule.yml)
 
