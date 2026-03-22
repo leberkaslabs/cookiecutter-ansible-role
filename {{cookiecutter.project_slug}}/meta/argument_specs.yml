@@ -1,0 +1,7 @@
+---
+argument_specs:
+  main:
+    author: {{ cookiecutter.full_name }}
+    description: {{ cookiecutter.description }}
+    short_description: {{ cookiecutter.role_name }}
+    options: {}

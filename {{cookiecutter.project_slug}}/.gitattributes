@@ -1,0 +1,19 @@
+# Set YAML files to be detected as YAML
+*.yml linguist-detectable=true
+*.yml linguist-language=YAML
+
+# Ignore files when exporting
+# Ref: https://github.com/ansible/galaxy/issues/78
+.ansible-lint       export-ignore
+.gitattributes      export-ignore
+.github             export-ignore
+.gitignore          export-ignore
+.yamllint.yml       export-ignore
+LICENSE             export-ignore
+molecule            export-ignore
+README.md           export-ignore
+requirements.txt    export-ignore
+
+# Optional: Force text files to use LF line endings if needed
+# You can add more file types if needed here for consistency
+*.{diff,json,md,patch,py,yml} text eol=lf

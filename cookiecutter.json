@@ -1,0 +1,10 @@
+{
+    "full_name": "Niclas Spreng",
+    "github_username": "leberkaslabs",
+    "role_name": "Ansible Role Boilerplate",
+    "project_slug": "ansible-role-{{ cookiecutter.role_name.lower().replace(' ', '_') }}",
+    "namespace": "{{ cookiecutter.github_username }}",
+    "description": "Enter Ansible role description",
+    "license": ["MIT", "Proprietary"],
+    "min_ansible_version": "2.15"
+}
