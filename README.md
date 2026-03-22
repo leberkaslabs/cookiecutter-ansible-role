@@ -1,5 +1,7 @@
 # Cookiecutter: Ansible Role
 
+[![Cookiecutter Test](https://github.com/leberkaslabs/cookiecutter-ansible-role/actions/workflows/cookiecutter.yml/badge.svg)](https://github.com/leberkaslabs/cookiecutter-ansible-role/actions/workflows/cookiecutter.yml)
+
 This repository offers a ready-to-use template for building Ansible roles with Cookiecutter. It helps you quickly set up a consistent, well-structured project layout, making your roles easier to reuse and maintain over time.
 
 ## Prerequisites

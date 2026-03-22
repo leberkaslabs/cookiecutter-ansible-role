@@ -1,0 +1,5 @@
+---
+# https://github.com/apps/settings
+repository:
+  description: This repository offers a ready-to-use template for building Ansible roles with Cookiecutter.
+  topics: ansible, ansible-galaxy, template, role
