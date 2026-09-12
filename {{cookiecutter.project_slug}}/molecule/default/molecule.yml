@@ -1,6 +1,7 @@
 ---
 dependency:
   name: galaxy
+{%- if cookiecutter.molecule == "docker" %}
 driver:
   name: docker
 platforms:
@@ -15,3 +16,20 @@ platforms:
     pre_build_image: true
 provisioner:
   name: ansible
+{%- elif cookiecutter.molecule == "vagrant" %}
+driver:
+  name: vagrant
+  provider:
+    name: qemu
+platforms:
+  - name: instance
+    # yamllint disable-line rule:quoted-strings
+    box: "${VAGRANT_BOX:-cloud-image/debian-12}"
+    memory: 2048
+    cpus: 1
+provisioner:
+  name: ansible
+  connection_options:
+    ansible_become: true
+    ansible_ssh_user: vagrant
+{%- endif %}

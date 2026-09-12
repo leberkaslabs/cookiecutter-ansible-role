@@ -1,6 +1,6 @@
 # Ansible Role: {{ cookiecutter.role_name.lower() }}
 
-[![Ansible Molecule](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/molecule.yml/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/molecule.yml)
+[![Ansible Lint](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/ansible-lint.yml)
 
 {{ cookiecutter.description }}
 
