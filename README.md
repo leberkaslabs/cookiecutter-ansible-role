@@ -20,17 +20,21 @@ cookiecutter https://github.com/leberkaslabs/cookiecutter-ansible-role
 > *The values in parentheses show the default options*
 
 ```bash
-[1/8] full_name (Niclas Spreng):
-[2/8] github_username (leberkaslabs):
-[3/8] role_name (Ansible Role Boilerplate): nginx
-[4/8] project_slug (ansible-role-nginx):
-[5/8] namespace (leberkaslabs):
-[6/8] description (Enter Ansible role description): This is my nginx role
-[7/8] Select license
+[1/9] full_name (Niclas Spreng):
+[2/9] github_username (leberkaslabs):
+[3/9] role_name (Ansible Role Boilerplate): nginx
+[4/9] project_slug (ansible-role-nginx):
+[5/9] namespace (leberkaslabs):
+[6/9] description (Enter Ansible role description): This is my nginx role
+[7/9] Select molecule
+  1 - docker
+  2 - vagrant
+  Choose from [1/2] (1): 1
+[8/9] Select license
   1 - MIT
   2 - Proprietary
   Choose from [1/2] (1): 1
-[8/8] min_ansible_version (2.15):
+[9/9] min_ansible_version (2.15):
 ```
 
 ## License
